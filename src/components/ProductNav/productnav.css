@@ -1,0 +1,39 @@
+.product-nav{
+    width: 100vw;
+    height: 11vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+    
+}
+
+.brand-list{
+    display: flex;
+    font-size: 13px;
+}
+
+.brand-list p {
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.melin-logo{
+    width: 200px;
+    cursor: pointer;
+}
+.search{
+    margin-right: 30px;
+}
+.search .fa-search { 
+    position: absolute;
+    top: 60px;
+    left: 96%;
+    font-size: 15px;
+}
+.nav-search{
+    height: 40px;
+    
+}

@@ -1,0 +1,40 @@
+.user-nav-container{
+   width: 100vw;
+   height: 4.5vh;
+   
+   background: black;
+   color: white;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 12px;
+}
+
+.info-slider{
+    width: 50vw;
+    text-align: right;
+}
+
+.user-info-container{
+  display: flex;
+  align-items: center;
+  flex-direction: end;
+  width: 50vw;
+  justify-content: flex-end;
+}
+.user-info-container p{
+   margin-right: 50px;
+}
+.account, .cart{
+    cursor: pointer;
+}
+.fa-user{
+    font-size: 12px;
+}
+.fa-shopping-cart{
+    font-size: 12px;
+}
+.fa-user, .fa-shopping-cart{
+    margin-right: 5px;
+}
