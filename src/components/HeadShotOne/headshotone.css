@@ -1,0 +1,46 @@
+.head-shot-one{
+    display: flex
+}
+
+/* head-shot-img */
+.trenches-img{
+    width: 50vw;
+}
+.trenches-intro{
+    width: 50vw;
+    background: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.8;
+    padding: 80px;
+}
+.featured-heading{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.featured-stmnt{
+    font-size: 18px;
+}   
+.featured-btn{
+    background: none;
+    width: 120px;
+    height: 50px;
+    outline: none;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.featured-btn:hover{
+    background: black;
+    color:white;
+    transition: .6s;
+}
+.featured-btn-sec{
+    width: 100%;
+}

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import UserNav from './components/UserNav/UserNav';
 import Productnav from './components/ProductNav/Productnav';
-import HeroComp from './components/HeroComp/HeroComp';
+import Home from './components/Home/Home';
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App"> 
         <UserNav />
         <Productnav />
-        <HeroComp />
+        <Home />
       </div>
     );
   }
