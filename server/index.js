@@ -3,6 +3,8 @@ const express = require('express');
 const { json } = require('body-parser');
 const session = require('express-session');
 
+
+
 // const { checkCart } = require('./middleware/authMiddleware');
 
 const app = express();
