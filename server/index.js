@@ -1,35 +1,17 @@
-require('dotenv').config();
 const express = require('express');
 const { json } = require('body-parser');
-const session = require('express-session');
+const PORT = 3001;
 
-
-
-// const { checkCart } = require('./middleware/authMiddleware');
+const { addProduct } = require('./controllers/product_controller')
 
 const app = express();
 app.use(json());
 
-// EXPRESS SESSION: 
-app.use(
-    session({
-        secret: process.env.SESSION_SECRET,
-        resave: false, 
-        saveUninitialized: false,
-        cookie: {
-            maxAge: 24 * 60 * 60 * 1000
-        }
-    })
-);
+require('../db/mongodb'); //database
 
 
 //ENDPOINT ROUTES: 
+app.post('/products', addProduct);
 
 
-
-
-
-
-
-
-app.listen(() => console.log(`Listening on port ${process.env.SERVER_PORT}...`))
+app.listen(PORT, () => console.log(`Listening on port${PORT}...`));

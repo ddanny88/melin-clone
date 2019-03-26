@@ -8,6 +8,7 @@ const HeroComp = () => {
         <div>
            <Carousel 
             interval={ 3000 }
+            stopOnHover={ false }
             showStatus={ false } 
             showThumbs= { false } 
             infiniteLoop={ true } 

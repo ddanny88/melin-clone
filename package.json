@@ -11,7 +11,6 @@
     "enzyme-adapter-react-16": "^1.11.2",
     "express": "^4.16.4",
     "express-session": "^1.15.6",
-    "mongodb": "^3.2.2",
     "mongoose": "^5.4.19",
     "raf": "^3.4.1",
     "react": "^16.8.4",
@@ -36,7 +35,7 @@
     "extends": "react-app"
   },
   "main": "server/index.js",
-  "proxy": "http://localhost:5050",
+  "proxy": "http://localhost:3001",
   "browserslist": [
     ">0.2%",
     "not dead",
